@@ -7,6 +7,10 @@ module.exports = {
         header: 'home/header',
         navColor: 'light'
     },
+    'cursos': {
+        title: "Cursos",
+        main: 'cursos/index',
+    },
     'services': {
         title: "Services",
         main: 'services/home/index',
