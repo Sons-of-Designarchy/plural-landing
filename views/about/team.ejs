@@ -1,0 +1,67 @@
+<%
+var people = [
+    {
+        name: "Yusuf Bhabhrawala",
+        position: "Chief Evangelist",
+        image: "https://img.sleekcms.com/random.png"
+    },
+    {
+        name: "Badal Mishra",
+        position: "DevOps & Infra",
+        image: "https://img.sleekcms.com/random.png"
+    },
+    {
+        name: "Zef Neemuchwala",
+        position: "Growth Hacker",
+        image: "https://img.sleekcms.com/random.png"
+    },
+    {
+        name: "Muskaan Singh",
+        position: "People & Culture",
+        image: "https://img.sleekcms.com/random.png"
+    },
+    {
+        name: "Saif Bhabhrawala",
+        position: "Client Success",
+        image: "https://img.sleekcms.com/random.png"
+    },
+    {
+        name: "Garima Bal",
+        position: "Agile & Scrum",
+        image: "https://img.sleekcms.com/random.png"
+    }
+]
+%>
+
+<section class="section text-white bg-dark" style="background-image: url(../assets/img/bg/13.jpg)" data-overlay="9">
+    <div class="container">
+      <header class="section-header">
+        <h2 class="fw-600">The Team</h2>
+        <hr>
+        <p class="lead">We are passionate group of developers, engineers, creatives</p>
+      </header>
+
+
+      <div class="row gap-y">
+
+        <% people.forEach(function(person) { %>
+        <div class="col-md-4">
+          <div class="media border border-glass rounded p-4">
+            <a class="align-self-center mr-4" href="#">
+              <img class="avatar avatar-xl" src="<%= person.image %>" alt="...">
+            </a>
+
+            <div class="media-body">
+              <h6 class="mb-1"><%= person.name %></h6>
+              <p class="small-5 text-uppercase fw-400 ls-2 opacity-50 mb-2"><%= person.position %></p>
+            </div>
+          </div>
+        </div>
+        <% }) %>        
+
+      </div>
+
+
+    </div>
+  </section>
+

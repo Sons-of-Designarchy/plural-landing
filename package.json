@@ -1,0 +1,16 @@
+{
+  "name": "marketing-website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "build": "rm -rf dist && mkdir dist && cp -r public/* dist && node ./bin/build.js"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "ejs": "~2.6.2",
+    "express": "~4.16.1",
+    "fs-extra": "^11.1.1",
+    "s": "^1.0.0"
+  }
+}
