@@ -748,6 +748,15 @@ ul {
   z-index: 1000000;
 }
 
-.p{
-  padding: 0%;
+.p {
+  padding: 0;
+}
+
+.full-width {
+  width: 100%
+}
+
+.slider-transform {
+  transform: translate3d(-200%, 0px, 0px); 
+  transition-duration: 350ms;
 }

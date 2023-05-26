@@ -8,27 +8,27 @@ module.exports = {
         navColor: 'light'
     },
     'cursos': {
-        title: "La hora SAT® 🤓 ",
+        title: "Cursos - La hora SAT® 🤓 ",
         main: 'cursos/index',
     },
     'curso-basico-lhs': {
-        title: "La hora SAT® 🤓 ",
+        title: "Curso Basico - La hora SAT® 🤓 ",
         main: 'curso-basico-lhs/index',
     },
     'curso-facturacion-lhs': {
-        title: "La hora SAT® 🤓 ",
+        title: "Curso Facturacion - La hora SAT® 🤓 ",
         main: 'curso-facturacion-lhs/index',
     },
     'asesorias': {
-        title: "La hora SAT® 🤓 ",
+        title: "Asesorias - La hora SAT® 🤓 ",
         main: 'asesorias/index',
     },
     'testimonios': {
-        title: "La hora SAT® 🤓 ",
+        title: "Testimonios - La hora SAT® 🤓 ",
         main: 'testimonios/index',
     },
     'blog': {
-        title: "La hora SAT® 🤓 ",
+        title: "Blog - La hora SAT® 🤓 ",
         main: 'blog/index',
     },
     'contact': {
