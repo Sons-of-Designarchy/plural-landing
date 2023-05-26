@@ -1,66 +1,88 @@
-<nav class="navbar navbar-expand-lg navbar-<%=(page.navColor ? page.navColor : 'dark')%> navbar-stick-dark" data-navbar="sticky">
-  <div class="container">
-    <div class="navbar-left">
-      <button class="navbar-toggler" type="button"><span class="navbar-toggler-icon"></span></button>
-      <a class="navbar-brand" href="/">
-        <img class="logo-dark" src="../../img/stock/sleeksky-logo.png" alt="logo" />
-        <img class="logo-light" src="../../img/stock/sleeksky-logo.png" alt="logo" />
-      </a>
+<header style="background:#fff;border-bottom:1px solid #ccc;position:fixed;top:0;width:100%;z-index:1000000" class="sticky">
+  <nav class="navbar navbar-expand-lg navbar-light p">
+    <div class="container">
+      <div class="d-lg-none">
+        <a class="navbar-brand d-flex" href="/">
+          <img src="../img/stock/logo-header.svg" alt="La Hora Sat" width="100"  />
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse">
+        <ul class="d-flex navbar-nav me-auto">
+          <li class="nav-item">
+            <a href="/" class="nav-link">
+              Inicio
+            </a>
+          </li>
+          <li class="nav-item" >
+            <a href="/cursos" class="nav-link" activeClass="active">
+              Cursos y talleres
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              activeClass="active"
+              href="/asesorias"
+            >
+              Asesorias
+          </a >
+        </a class="nav-link">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              activeClass="active"
+              href="/testimonios"
+            >
+              Testimonios
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" activeClass="active" href="/blog">
+              Blog
+            </a>
+          </li>
+        </ul>
+        <div class="logo-container d-none d-lg-block">
+          <a to="/" class="nav-link">
+            <img alt="La Hora Sat" width="90" src="../img/gallery/logo.svg" />
+          </a>
+        </div>
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" activeClass="active" href="https://lahorasat.podia.com/login" target="_blank">
+              Iniciar sesión
+            </a>
+          </li>
+          <li class="nav-item d-none d-lg-block"></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <!--{/* <a
+    href={'https://wa.me/' + whatsappNumber}
+    target="_blank"
+    className="whats-floating"
+  >
+    <img src={Whats} />
+  </a> */}-->
+</header>
+<script>
+  $(document).ready(function() {
+    // Get the current URL path
+    var path = window.location.pathname;
 
-    <section class="navbar-mobile">
-      <span class="navbar-divider d-mobile-none"></span>
+    // Loop through each navbar link
+    $('.nav-link').each(function() {
+      var href = $(this).attr('href');
 
-      <ul class="nav nav-navbar">
-        <li class="nav-item nav-mega">
-          <a class="nav-link" href="#">Services <span class="arrow"></span></a>
-          <nav class="nav px-lg-2 py-lg-4">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg">
-                  <nav class="nav flex-column">
-                    <a class="nav-link" href="/services/front-end-development">Front-end Development</a>
-                    <a class="nav-link" href="/services/back-end-development">Back-end Development</a>
-                    <a class="nav-link" href="/services/full-stack-development">Full Stack Development</a>
-                    <a class="nav-link" href="/services/startup-mvp-development">Startup / MVP Development</a>
-                    <a class="nav-link" href="/services/enterprise-development">Enterprise Solutions</a>
-                  </nav>
-                </div>
+      // Check if the link's URL matches the current path
+      if (path === href) {
+        $(this).addClass('active'); // Add the active class
+      }
+    });
+  });
+</script>
 
-                <div class="col-lg">
-                  <nav class="nav flex-column">
-                    <a class="nav-link" href="/services/ui-ux-design">UI/UX Design</a>
-                    <a class="nav-link" href="/services/qa-testing-services">QA & Testing Services</a>
-                    <a class="nav-link" href="/services/in-sourced-teams">In-sourced Teams</a>
-                    <a class="nav-link" href="/services/nearshore-teams">Nearshore Teams</a>
-                    <a class="nav-link" href="/services/agile-pod-teams">Agile POD Teams</a>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/case-studies">Case Studies</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us <span class="arrow"></span></a>
-          <nav class="nav">
-            <a class="nav-link" href="/about">Who We Are</a>
-            <a class="nav-link" href="/about">Our Team</a>
-            <a class="nav-link" href="/about">Philosophy</a>
-            <a class="nav-link" href="/about">How We Work</a>
-            <a class="nav-link" href="/about">Contact Us</a>
-          </nav>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/blog">Insights</a>
-        </li>
-      </ul>
-    </section>
-    <a class="btn btn-xs btn-round btn-success" href="#" data-toggle="modal" data-target="#modal-contact-1">Get in touch</a>
-  </div>
-</nav>
