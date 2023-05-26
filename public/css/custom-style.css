@@ -294,7 +294,7 @@ ul {
 
 .page-content {
   padding-top: 59px;
-  background: url("../img/textura-white.png");
+  background: url("../img/gallery/textura-white.png");
   background-size: cover;
 }
 
@@ -315,7 +315,7 @@ ul {
 }
 
 .section-gray {
-  background: url("../img/textura-white.png");
+  background: url("../img/gallery/textura-white.png");
 }
 
 .text-dark {
@@ -338,7 +338,7 @@ ul {
 }
 
 .section-white {
-  background: #fff url("../img/textura-white.png");
+  background: #fff url("../img/gallery/textura-white.png");
   background-size: cover;
 }
 
@@ -355,7 +355,7 @@ ul {
 
 .section-purple {
   color: #fff;
-  background: var(--purple) url("../img/textura-purple.png");
+  background: var(--purple) url("../img/gallery/textura-purple.png");
 }
 .section-off-purple {
   color: var(--purple) !important;
@@ -364,11 +364,11 @@ ul {
 }
 .section-green {
   color: var(--purple) !important;
-  background: var(--green) url("../img/textura-green.png");
+  background: var(--green) url("../img/gallery/textura-green.png");
 }
 .section-green-flu {
   color: var(--purple) !important;
-  background: var(--green-flu) url("../img/textura-green.png");
+  background: var(--green-flu) url("../img/gallery/textura-green.png");
 }
 
 .section-floating {
@@ -737,4 +737,26 @@ ul {
 
 .whats-floating img {
   width: 54px;
+}
+
+.headerStyles {
+  background: "#fff";
+  border-bottom: "1px solid #ccc";
+  position: "fixed";
+  top: 0;
+  width: "100%";
+  z-index: 1000000;
+}
+
+.p {
+  padding: 0;
+}
+
+.full-width {
+  width: 100%
+}
+
+.slider-transform {
+  transform: translate3d(-200%, 0px, 0px); 
+  transition-duration: 350ms;
 }
