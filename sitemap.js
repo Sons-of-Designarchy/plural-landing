@@ -23,6 +23,18 @@ module.exports = {
         title: "Asesorias - La hora SAT® 🤓 ",
         main: 'asesorias/index',
     },
+    'asesoria-basica': {
+        title: "Asesoría basica - La hora SAT® 🤓 ",
+        main: 'asesoria-basica/index',
+    },
+    'asesoria-practica': {
+        title: "Asesoría practica - La hora SAT® 🤓 ",
+        main: 'asesoria-practica/index',
+    },
+    'asesoria-declaracion': {
+        title: "Asesoría declaracion - La hora SAT® 🤓 ",
+        main: 'asesoria-declaracion/index',
+    },
     'testimonios': {
         title: "Testimonios - La hora SAT® 🤓 ",
         main: 'testimonios/index',
