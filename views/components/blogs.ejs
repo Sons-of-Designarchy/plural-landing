@@ -1,67 +1,411 @@
-<div class="container">
-    <div class="section">
-      <h3 class="mb-5 text-center">
-        Aprende más sobre el Sat en nuestro blog
-      </h3>
+<div class="section section-purple">
+  <div class="container">
+    <h1 class="text-center text-primary mb-0">Bienvenidx a nuestro blog</h1>
+    <p class="text-light text-center">Aquí encontrarás todo lo que necesitas para saber cómo funciona el SAT. </p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="content">
       <div class="row justify-content-center">
-            <Link
-              to={post.fields.slug}
-              class="col-lg-4 mb-4"
-              key={post.id}
-            >
-              <!--<article
-                class={`course-card ${
-                  post.frontmatter.featuredpost ? "is-featured" : ""
-                }`}
-              >
-                {post.frontmatter.featuredimage ? (
-                  <div class="featured-thumbnail">
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: post.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                      }}
-                    />
-                  </div>
-                ) : null}
-                <div class="p-3 featured-content d-flex flex-column flex-1">
-                  {post.frontmatter.tags && (
-                    <>
-                      <div class="d-flex">
-                        {post.frontmatter.tags.map((tag) => (
-                          <div
-                            class="label label-primary label-sm"
-                            style={{ marginRight: "0.33rem" }}
-                            key={tag + `tag`}
-                          >
-                            <Link to={`/tags/${kebabCase(tag)}/`}>
-                              {tag}
-                            </Link>
-                          </div>
-                        ))}
-                      </div>
-                    </>
-                  )}
-                  <h6 class="mt-2">{post.frontmatter.title}</h6>
-                  <p class="font-xs flex-1 mb-0">
-                    {post.frontmatter.description}
-                  </p>
-                  <Link
-                    class="btn btn-secondary d-block mt-3"
-                    to={post.fields.slug}
-                  >
-                    Seguir leyendo →
-                  </Link>
-                </div>
-                <p></p>
-              </article>
-            </Link>
-          ))} -->
-      </div>
-      <div class="text-center">
-        <a href="/blog/" class="btn btn-primary d-inline-block">
-          Ver todas las entradas del blog...
-        </a>
-      </div>
+        <div class="col-lg-4 mb-4"
+          href="blog-resico">
+          <article class="course-card is-featured">
+            <div class="featured-thumbnail">
+              <div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden; border-radius: 5px;">
+                <div aria-hidden="true" style="width: 100%; padding-bottom: 66.8%;"></div><img aria-hidden="true"
+                  src="../img/gallery/resico.png"  
+                  alt=""
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                <picture>
+                  <source srcset="../img/gallery/resico.png" sizes="(max-width: 1000px) 100vw, 1000px"><img
+                    sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/resico.png"
+                    src="../img/gallery/resico.png"
+                    alt="featured image thumbnail for post Características del RESICO" loading="lazy"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                </picture>
+                  <picture>
+                    <source srcset="../img/gallery/resico.png" sizes="(max-width: 1000px) 100vw, 1000px" /><img
+                      loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/resico.png"
+                      src="../img/gallery/resico.png"
+                      alt="featured image thumbnail for post Características del RESICO"
+                      style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                  </picture>
+                </noscript>
+              </div>
+            </div>
+            <div class="p-3 featured-content d-flex flex-column flex-1">
+              <div class="d-flex">
+                <div class="label label-primary label-sm" style="margin-right: 0.33rem;"><a
+                    href="regimenes-fiscales">REGIMENES FISCALES</a></div>
+              </div>
+              <h4 class="mt-2">Características del RESICO</h4>
+              <p class="font-xs flex-1 mb-0">Aquí te dejamos la tabla con la tasa de ISR que se cobrará según los
+                ingresos que percibas y algunas otras características importantes sobre el nuevo Régimen Simplificado de
+                Confianza</p><a class="btn btn-secondary d-block mt-3"
+                href="blog-resico">Seguir leyendo →</a>
+            </div>
+            <p></p>
+          </article>
+        </div>
+        <div class="col-lg-4 mb-4" href="blog-regimenes">
+          <article class="course-card is-featured">
+            <div class="featured-thumbnail">
+              <div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden; border-radius: 5px;">
+                <div aria-hidden="true" style="width: 100%; padding-bottom: 66.8%;"></div><img aria-hidden="true"
+                  src="../img/gallery/regimenes.png"                  
+                  alt=""
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                <picture>
+                  <source srcset="../img/gallery/regimenes.png" sizes="(max-width: 1000px) 100vw, 1000px"><img
+                    sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/regimenes.png"
+                    src="../img/gallery/regimenes.png"
+                    alt="featured image thumbnail for post ¿Qué son los regímenes fiscales?" loading="lazy"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                </picture>
+                  <picture>
+                    <source srcset="../img/gallery/regimenes.png" sizes="(max-width: 1000px) 100vw, 1000px" /><img
+                      loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/regimenes.png"
+                      src="../img/gallery/regimenes.png"
+                      alt="featured image thumbnail for post ¿Qué son los regímenes fiscales?"
+                      style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                  </picture>
+                </noscript>
+              </div>
+            </div>
+            <div class="p-3 featured-content d-flex flex-column flex-1">
+              <div class="d-flex">
+                <div class="label label-primary label-sm" style="margin-right: 0.33rem;"><a
+                    href="regimenes-fiscales">REGIMENES FISCALES</a></div>
+              </div>
+              <h4 class="mt-2">¿Qué son los regímenes fiscales?</h4>
+              <p class="font-xs flex-1 mb-0">Lo primero que debes entender antes de darte de alta en el SAT, son los
+                regímenes fiscales.
+                Estos son esquemas en los cuales se te asigna alguno dependiendo de tu actividad económica (o sea a lo
+                que te vas a dedicar). Y cada esquema tiene diferentes obligaciones y derechos. ¡Por eso es muy
+                importante que elijas bien!
+              </p><a class="btn btn-secondary d-block mt-3"
+                href="blog-regimenes">Seguir leyendo →</a>
+            </div>
+            <p></p>
+          </article>
+        </div>
+        <div class="col-lg-4 mb-4" href="blog-opinion">
+          <article class="course-card is-featured">
+            <div class="featured-thumbnail">
+              <div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden; border-radius: 5px;">
+                <div aria-hidden="true" style="width: 100%; padding-bottom: 66.8%;"></div><img aria-hidden="true"
+                  src="../img/gallery/opinion.png"                  
+                  alt=""
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                <picture>
+                  <source srcset="../img/gallery/opinion.png" sizes="(max-width: 1000px) 100vw, 1000px"><img
+                    sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/opinion.png"
+                    src="../img/gallery/opinion.png"
+                    alt="featured image thumbnail for post ¿Qué es la opinión del cumplimiento?" loading="lazy"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                </picture>
+                  <picture>
+                    <source srcset="../img/gallery/opinion.png"sizes="(max-width: 1000px) 100vw, 1000px" /><img
+                      loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/opinion.png"
+                      src="../img/gallery/opinion.png"
+                      alt="featured image thumbnail for post ¿Qué es la opinión del cumplimiento?"
+                      style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                  </picture>
+                </noscript>
+              </div>
+            </div>
+            <div class="p-3 featured-content d-flex flex-column flex-1">
+              <div class="d-flex">
+                <div class="label label-primary label-sm" style="margin-right: 0.33rem;"><a
+                    href="tags-portal-del-sat">PORTAL DEL SAT</a></div>
+              </div>
+              <h4 class="mt-2">¿Qué es la opinión del cumplimiento?</h4>
+              <p class="font-xs flex-1 mb-0">La opinión de cumplimiento es uno de los documentos más importantes del SAT
+                que debes que revisar constantemente, pues aquí se te informa: Si estás activo ante el SAT. Si tienes
+                alguna deuda. Si estás al corriente con tus obligaciones fiscales.
+              </p><a class="btn btn-secondary d-block mt-3"
+                href="blog-opinion">Seguir leyendo →</a>
+            </div>
+            <p></p>
+          </article>
+        </div>
+        <div class="col-lg-4 mb-4" href="blog-pedir-facturas">
+          <article class="course-card is-featured">
+            <div class="featured-thumbnail">
+              <div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden; border-radius: 5px;">
+                <div aria-hidden="true" style="width: 100%; padding-bottom: 66.8%;"></div><img aria-hidden="true"
+                  src="../img/gallery/facturas.png"
+                  alt=""
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                <picture>
+                  <source srcset="../img/gallery/facturas.png"sizes="(max-width: 1000px) 100vw, 1000px"><img
+                    sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/facturas.png"
+                    src="../img/gallery/facturas.png"
+                    alt="featured image thumbnail for post ¿Cómo pedir de manera correcta tus facturas de compras?"
+                    loading="lazy"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                </picture>
+                  <picture>
+                    <source srcset="../img/gallery/facturas.png" sizes="(max-width: 1000px) 100vw, 1000px" /><img
+                      loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/facturas.png"
+                      src="../img/gallery/facturas.png"
+                      alt="featured image thumbnail for post ¿Cómo pedir de manera correcta tus facturas de compras?"
+                      style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                  </picture>
+                </noscript>
+              </div>
+            </div>
+            <div class="p-3 featured-content d-flex flex-column flex-1">
+              <div class="d-flex">
+                <div class="label label-primary label-sm" style="margin-right: 0.33rem;"><a
+                    href="tags-deducciones">DEDUCCIONES</a></div>
+              </div>
+              <h4 class="mt-2">¿Cómo pedir de manera correcta tus facturas de compras?</h4>
+              <p class="font-xs flex-1 mb-0">Te ha pasado que al comprar algo y solicitar factura te preguntan: ¿Uso de
+                CFDI?
+                Pues esto se debe a que dicho campo indica la finalidad que le darás a la factura.
+              </p><a class="btn btn-secondary d-block mt-3"
+                href="blog-pedir-facturas">Seguir leyendo →</a>
+            </div>
+            <p></p>
+          </article>
+        </div>
+        <div class="col-lg-4 mb-4" href="blog-evadir-al-sat">
+          <article class="course-card is-featured">
+            <div class="featured-thumbnail">
+              <div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden; border-radius: 5px;">
+                <div aria-hidden="true" style="width: 100%; padding-bottom: 66.8%;"></div><img aria-hidden="true"
+                  src="../img/gallery/b-nopagar.png"
+                  alt=""
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                <picture>
+                  <source srcset="../img/gallery/b-nopagar.png" sizes="(max-width: 1000px) 100vw, 1000px"><img
+                    sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/b-nopagar.png"
+                    src="../img/gallery/b-nopagar.png"
+                    alt="featured image thumbnail for post ¿Se puede evadir al SAT?" loading="lazy"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                </picture>
+                  <picture>
+                    <source srcset="../img/gallery/b-nopagar.png" sizes="(max-width: 1000px) 100vw, 1000px" /><img
+                      loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/b-nopagar.png"
+                      src="../img/gallery/b-nopagar.png"
+                      alt="featured image thumbnail for post ¿Se puede evadir al SAT?"
+                      style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                  </picture>
+                </noscript>
+              </div>
+            </div>
+            <div class="p-3 featured-content d-flex flex-column flex-1">
+              <div class="d-flex">
+                <div class="label label-primary label-sm" style="margin-right: 0.33rem;"><a
+                    href="tags-dudas/">duds</a></div>
+              </div>
+              <h4 class="mt-2">¿Se puede evadir al SAT?</h4>
+              <p class="font-xs flex-1 mb-0">Esta es una de las preguntas más frecuentes en las asesorías y cursos, así
+                que aquí resolveremos esta duda para quitarnos la idea de que podemos evadir al SAT.</p><a
+                class="btn btn-secondary d-block mt-3" href="blog-evadir-al-sat">Seguir leyendo
+                →</a>
+            </div>
+            <p></p>
+          </article>
+        </div>
+        <div class="col-lg-4 mb-4" href="blog-IVA">
+          <article class="course-card is-featured">
+            <div class="featured-thumbnail">
+              <div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden; border-radius: 5px;">
+                <div aria-hidden="true" style="width: 100%; padding-bottom: 66.8%;"></div><img aria-hidden="true"
+                  src="../img/gallery/b-iva.png"
+                  alt=""
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                <picture>
+                  <source srcset="../img/gallery/b-iva.png" sizes="(max-width: 1000px) 100vw, 1000px"><img
+                    sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/b-iva.png"
+                    src="../img/gallery/b-iva.png"
+                    alt="featured image thumbnail for post ¿Qué es el IVA?" loading="lazy"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                </picture>
+                  <picture>
+                    <source srcset="../img/gallery/b-iva.png" sizes="(max-width: 1000px) 100vw, 1000px" /><img
+                      loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/b-iva.png"
+                      src="../img/gallery/b-iva.png"
+                      alt="featured image thumbnail for post ¿Qué es el IVA?"
+                      style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                  </picture>
+                </noscript>
+              </div>
+            </div>
+            <div class="p-3 featured-content d-flex flex-column flex-1">
+              <div class="d-flex">
+                <div class="label label-primary label-sm" style="margin-right: 0.33rem;"><a
+                    href="tags-impuestos">impuestos</a></div>
+              </div>
+              <h4 class="mt-2">¿Qué es el IVA?</h4>
+              <p class="font-xs flex-1 mb-0">El concepto que escuchamos en todos lados y que nos lo cobran en todas las
+                cosas, pero ¿realmente sabemos qué significa? Hoy les explicaremos uno de los términos más usados y cómo
+                funciona.</p><a class="btn btn-secondary d-block mt-3" href="blog-IVA">Seguir
+                leyendo →</a>
+            </div>
+            <p></p>
+          </article>
+        </div>
+        <div class="col-lg-4 mb-4" href="blog-deducciones-tipos">
+          <article class="course-card is-featured">
+            <div class="featured-thumbnail">
+              <div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden; border-radius: 5px;">
+                <div aria-hidden="true" style="width: 100%; padding-bottom: 66.8%;"></div><img aria-hidden="true"
+                  src="../img/gallery/b-dedu.png"
+                  alt=""
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                <picture>
+                  <source srcset="../img/gallery/b-dedu.png" sizes="(max-width: 1000px) 100vw, 1000px"><img
+                    sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/b-dedu.png"
+                    src="../img/gallery/b-dedu.png"
+                    alt="featured image thumbnail for post Tipos de deducciones" loading="lazy"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                </picture>
+                  <picture>
+                    <source srcset="../img/gallery/b-dedu.png" sizes="(max-width: 1000px) 100vw, 1000px" /><img
+                      loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/b-dedu.png"
+                      src="../img/gallery/b-dedu.png"
+                      alt="featured image thumbnail for post Tipos de deducciones"
+                      style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                  </picture>
+                </noscript>
+              </div>
+            </div>
+            <div class="p-3 featured-content d-flex flex-column flex-1">
+              <div class="d-flex">
+                <div class="label label-primary label-sm" style="margin-right: 0.33rem;"><a
+                    href="tags-deducciones">#deducciones</a></div>
+              </div>
+              <h4 class="mt-2">Tipos de deducciones</h4>
+              <p class="font-xs flex-1 mb-0">Deducir es la manera en la que puedes "recuperar" lo que pagaste de
+                impuestos. Aquí entenderás todo lo que necesitas para poder utilizarlo a tu favor.</p><a
+                class="btn btn-secondary d-block mt-3" href="blog-deducciones-tipos">Seguir leyendo
+                →</a>
+            </div>
+            <p></p>
+          </article>
+        </div>
+        <div class="col-lg-4 mb-4" href="blog-ISR">
+          <article class="course-card is-featured">
+            <div class="featured-thumbnail">
+              <div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden; border-radius: 5px;">
+                <div aria-hidden="true" style="width: 100%; padding-bottom: 66.8%;"></div><img aria-hidden="true"
+                  src="../img/gallery/b-isr.png"  
+                  alt=""
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                <picture>
+                  <source srcset="../img/gallery/b-isr.png"   sizes="(max-width: 1000px) 100vw, 1000px"><img
+                    sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/b-isr.png"  
+                    src="../img/gallery/b-isr.png"  
+                    alt="featured image thumbnail for post ¿Qué es el ISR?" loading="lazy"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                </picture>
+                  <picture>
+                    <source srcset="../img/gallery/b-isr.png"   sizes="(max-width: 1000px) 100vw, 1000px" /><img
+                      loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/b-isr.png"  
+                      src="../img/gallery/b-isr.png"  
+                      alt="featured image thumbnail for post ¿Qué es el ISR?"
+                      style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                  </picture>
+                </noscript>
+              </div>
+            </div>
+            <div class="p-3 featured-content d-flex flex-column flex-1">
+              <div class="d-flex">
+                <div class="label label-primary label-sm" style="margin-right: 0.33rem;"><a
+                    href="tags-impuestos/">#impuestos</a></div>
+              </div>
+              <h4 class="mt-2">¿Qué es el ISR?</h4>
+              <p class="font-xs flex-1 mb-0">Hoy les explicamos uno de los términos más usados y que algunos todavía no
+                entienden qué es y cómo funciona este impuesto.</p><a class="btn btn-secondary d-block mt-3"
+                href="blog-ISR">Seguir leyendo →</a>
+            </div>
+            <p></p>
+          </article>
+        </div>
+        <div class="col-lg-4 mb-4" href="blog-pagan-isr">
+          <article class="course-card is-featured">
+            <div class="featured-thumbnail">
+              <div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden; border-radius: 5px;">
+                <div aria-hidden="true" style="width: 100%; padding-bottom: 66.8%;"></div><img aria-hidden="true"
+                  src="../img/gallery/frame-5.png"
+                  alt=""
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                <picture>
+                  <source srcset="../img/gallery/frame-5.png" sizes="(max-width: 1000px) 100vw, 1000px"><img
+                    sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/frame-5.png"
+                    src="../img/gallery/frame-5.png"
+                    alt="featured image thumbnail for post ¿Todos los ingresos pagan ISR en México?" loading="lazy"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                </picture>
+                  <picture>
+                    <source srcset="../img/gallery/frame-5.png" sizes="(max-width: 1000px) 100vw, 1000px" /><img
+                      loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/frame-5.png"
+                      src="../img/gallery/frame-5.png"
+                      alt="featured image thumbnail for post ¿Todos los ingresos pagan ISR en México?"
+                      style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                  </picture>
+                </noscript>
+              </div>
+            </div>
+            <div class="p-3 featured-content d-flex flex-column flex-1">
+              <div class="d-flex">
+                <div class="label label-primary label-sm" style="margin-right: 0.33rem;"><a
+                    href="tags-impuestos/">Impuestos</a></div>
+              </div>
+              <h4 class="mt-2">¿Todos los ingresos pagan ISR en México?</h4>
+              <p class="font-xs flex-1 mb-0">Existen diferentes tipos de ingresos y con esto, diferentes tipos de pago
+                de impuestos.
+                Y es importante conocerlos para que no te agarren en curva a la hora de tu declaración.
+                Aquí les dejamos algunos de los más comunes.</p><a class="btn btn-secondary d-block mt-3"
+                href="blog-pagan-isr">Seguir leyendo →</a>
+            </div>
+            <p></p>
+          </article>
+        </div>
+        <div class="col-lg-4 mb-4" href="blog-glosario">
+          <article class="course-card is-featured">
+            <div class="featured-thumbnail">
+              <div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden; border-radius: 5px;">
+                <div aria-hidden="true" style="width: 100%; padding-bottom: 66.8%;"></div><img aria-hidden="true"
+                  src="../img/gallery/free-book-cover-mockup-psd-for-branding-1-.jpg"
+                  alt=""
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                <picture>
+                  <source srcset="../img/gallery/free-book-cover-mockup-psd-for-branding-1-.jpg"
+                    sizes="(max-width: 1000px) 100vw, 1000px"><img sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/free-book-cover-mockup-psd-for-branding-1-.jpg"
+                    src="../img/gallery/free-book-cover-mockup-psd-for-branding-1-.jpg"
+                    alt="featured image thumbnail for post Glosario Básico sobre el SAT" loading="lazy"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                </picture>
+                  <picture>
+                    <source srcset="../img/gallery/free-book-cover-mockup-psd-for-branding-1-.jpg"
+                      sizes="(max-width: 1000px) 100vw, 1000px" /><img loading="lazy"
+                      sizes="(max-width: 1000px) 100vw, 1000px" srcset="../img/gallery/free-book-cover-mockup-psd-for-branding-1-.jpg"
+                      src="../img/gallery/free-book-cover-mockup-psd-for-branding-1-.jpg"
+                      alt="featured image thumbnail for post Glosario Básico sobre el SAT"
+                      style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                  </picture>
+                </noscript>
+              </div>
+            </div>
+            <div class="p-3 featured-content d-flex flex-column flex-1">
+              <div class="d-flex">
+                <div class="label label-primary label-sm" style="margin-right: 0.33rem;"><a
+                    href="tags-dudas">Duds</a></div>
+              </div>
+              <h4 class="mt-2">Glosario Básico sobre el SAT</h4>
+              <p class="font-xs flex-1 mb-0">
+                Aquí encontrarás todo lo que necesitas para saber cómo funciona el SAT.
+                Pero antes de empezar de lleno, es importante relacionarse con los términos, así que aquí les dejamos
+                los más comunes: </p><a class="btn btn-secondary d-block mt-3" href="blog-glosario">Seguir
+                leyendo →</a>
+            </div>
+          </article>
+        </div></div>
     </div>
   </div>
+</section>
