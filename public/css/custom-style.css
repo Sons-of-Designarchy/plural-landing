@@ -765,6 +765,32 @@ ul {
   transition-duration: 350ms;
 }
 
-.margin-le{
+.margin-le {
   margin-left: "2rem"
+}
+
+.p-btn {
+  padding-right: 2rem;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  height: 6vh;
+  width: 6vh;
+  top:50%;
+  border-radius: 50%;
+  right: 0;
+}
+
+.carousel-control-next-icon {
+  background-color: #8158e8;
+}
+
+.carousel-control-prev-icon {
+  background-color: #8158e8;
+}
+
+.carousel-control-next span,
+.carousel-control-prev span{
+  width: 1.5rem;
+  height: 1.5rem;
 }
