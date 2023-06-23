@@ -1,40 +1,42 @@
 :root {
-  --purple: #603dbd;
-  --purple-light: #886ecd;
+  --orange: #F7931F;
+  --orange: #F7931F;
+  --orange-light: #000000;
   --off-purple: #e9e4f5;
   --green: #d5fc6d;
   --green-flu: #d3fc66;
   --white: #ffffff;
+  --black: #000;
 }
 
 @font-face {
-  font-family: "Banana Grotesk";
+  font-family: "glamour absolute regular";
   font-weight: 300;
-  src: url("../fonts/BananaGrotesk-Light.otf");
+  src: url("../fonts/glamour absolute regular.ttf");
 }
 
 @font-face {
-  font-family: "Banana Grotesk";
+  font-family: "glamour absolute regular";
   font-weight: 400;
-  src: url("../fonts/BananaGrotesk-Regular.otf");
+  src: url("../fonts/glamour absolute regular.ttf");
 }
 
 @font-face {
-  font-family: "Banana Grotesk";
+  font-family: "glamour absolute regular";
   font-weight: 500;
-  src: url("../fonts/BananaGrotesk-Medium.otf");
+  src: url("../fonts/glamour absolute regular.ttf");
 }
 
 @font-face {
-  font-family: "Banana Grotesk";
+  font-family: "glamour absolute regular";
   font-weight: 600;
-  src: url("../fonts/BananaGrotesk-Bold.otf");
+  src: url("../fonts/glamour absolute regular.ttf");
 }
 
 @font-face {
-  font-family: "Meek Display";
+  font-family: "glamour absolute regular";
   font-weight: 600;
-  src: url("../fonts/Meek_Display_Medium.ttf");
+  src: url("../fonts/glamour absolute regular.ttf");
 }
 
 html,
@@ -49,8 +51,8 @@ video {
 }
 
 body {
-  font-family: "Banana Grotesk", sans-serif;
-  color: var(--purple);
+  font-family: "glamour absolute regular", sans-serif;
+  color: var(--black);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #e9e4f5;
@@ -62,21 +64,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Meek Display", sans-serif !important;
+  font-family: "glamour absolute regular", sans-serif !important;
 }
 
 .sans-serif {
-  font-family: "Banana Grotesk", sans-serif;
+  font-family: "glamour absolute regular", sans-serif;
 }
 
 a {
   cursor: hand;
   text-decoration: none;
-  color: var(--purple);
+  color: var(--orange);
 }
 
 a:hover {
-  color: var(--purple);
+  color: var(--orange);
 }
 
 .a-underline {
@@ -84,7 +86,7 @@ a:hover {
 }
 
 p {
-  color: var(--purple);
+  color: #F7931F;
   font-size: 19px;
   font-weight: 400;
   line-height: 165%;
@@ -120,7 +122,7 @@ button {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #603dbd;
+  color: #F7931F;
 }
 
 @media (max-width: 556px) {
@@ -282,14 +284,11 @@ ul {
 
 .logo-container a {
   display: inline-block;
-  background: var(--green);
-  padding: 0.5rem;
   width: 90px;
-  height: 90px;
+  height: 40px;
   border-bottom-left-radius: 90px;
   border-bottom-right-radius: 90px;
-  margin-top: 32px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 10px;
   z-index: 1000;
   position: relative;
 }
@@ -298,7 +297,7 @@ ul {
 
 .page-content {
   padding-top: 59px;
-  background: url("../img/gallery/textura-white.png");
+  background-color: #000;
   background-size: cover;
 }
 
@@ -375,6 +374,55 @@ ul {
   background: var(--green-flu) url("../img/gallery/textura-green.png");
 }
 
+.bg {
+  background-image: url("../img/Header.svg");
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-p{
+  align-items: center;
+  width: 606.79px;
+  height: 70.79px;
+
+
+  color: #F7931F;
+}
+
+.header-p2{
+  width: 559px;
+  height: 27px;
+
+  font-family: 'glamour absolute regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #F7931F;
+}
+
+.header-p3{
+  width: 170px;
+  height: 26px;
+
+  font-family: 'glamour absolute regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.0605px;
+  line-height: 150%;
+  /* identical to box height, or 26px */
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #F7931F;
+}
+
 .section-floating {
   border-radius: 16px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
@@ -414,7 +462,7 @@ ul {
 }
 
 .nav-link {
-  color: var(--purple) !important;
+  color: #F7931F !important;
   font-size: 0.75rem;
   font-weight: 500;
   border-bottom: 3px solid transparent;
@@ -754,6 +802,7 @@ ul {
 
 .p {
   padding: 0;
+  padding-left: 30%;
 }
 
 .full-width {
@@ -793,4 +842,15 @@ ul {
 .carousel-control-prev span{
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.footerbg{
+  background-color: #000;
+}
+
+.ticketbutton {
+  background-image: url("../img/ticket.svg");
+}
+.about-i {
+  background-image: url("../img/about.jpg");
 }
