@@ -6,7 +6,7 @@
 <mask id="mask0_2_54" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="796">
 <g style="mix-blend-mode:screen">
 <rect x="0.326502" y="0.326502" width="1439.35" height="795.347" fill="url(#pattern1)"/>
-<rect x="0.326502" y="0.326502" width="1439.35" height="795.347" stroke="#F7931F" stroke-width="0.653003"/>
+<rect x="0.326502" y="0.326502" width="1439.35" height="795.347" stroke="#ffffff" stroke-width="0.653003"/>
 </g>
 </mask>
 <g mask="url(#mask0_2_54)">
